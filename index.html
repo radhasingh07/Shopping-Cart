@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Shopping Cart Dashboard</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+<h1>🛒 Shopping Cart Dashboard</h1>
+
+<p class="subtitle">
+
+Modern JavaScript E-Commerce Project
+
+</p>
+
+<!-- Dashboard -->
+
+<div class="dashboard">
+
+<div class="card">
+
+<h3>Total Products</h3>
+
+<p id="productCount">0</p>
+
+</div>
+
+<div class="card">
+
+<h3>Cart Items</h3>
+
+<p id="cartCount">0</p>
+
+</div>
+
+<div class="card">
+
+<h3>Wishlist</h3>
+
+<p id="wishlistCount">0</p>
+
+</div>
+
+<div class="card">
+
+<h3>Total Price</h3>
+
+<p id="totalPrice">₹0</p>
+
+</div>
+
+</div>
+
+<!-- Search -->
+
+<div class="controls">
+
+<input
+
+type="text"
+
+id="search"
+
+placeholder="🔍 Search products..."
+
+>
+
+<select id="category">
+
+<option value="all">
+
+All Categories
+
+</option>
+
+<option value="Electronics">
+
+Electronics
+
+</option>
+
+<option value="Fashion">
+
+Fashion
+
+</option>
+
+<option value="Books">
+
+Books
+
+</option>
+
+<option value="Home">
+
+Home
+
+</option>
+
+</select>
+
+</div>
+
+<!-- Products -->
+
+<div id="products">
+
+</div>
+
+<!-- Cart -->
+
+<div class="cart">
+
+<h2>🛍 Shopping Cart</h2>
+
+<div id="cartItems">
+
+<p>
+
+Your cart is empty.
+
+</p>
+
+</div>
+
+<div class="summary">
+
+<h3>
+
+Subtotal
+
+<span id="subtotal">
+
+₹0
+
+</span>
+
+</h3>
+
+<h3>
+
+Tax (5%)
+
+<span id="tax">
+
+₹0
+
+</span>
+
+</h3>
+
+<h3>
+
+Shipping
+
+<span id="shipping">
+
+₹50
+
+</span>
+
+</h3>
+
+<h2>
+
+Total
+
+<span id="grandTotal">
+
+₹50
+
+</span>
+
+</h2>
+
+<button id="checkout">
+
+Proceed to Checkout
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
