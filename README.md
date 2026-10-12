@@ -24,7 +24,11 @@ Shopping-Cart/
 │── index.html
 │── style.css
 │── script.js
-│── images/
+│── home.png
+│── home2.png
+│── input1.png
+│── input2.png
+│── output.png
 └── README.md
 ```
 
